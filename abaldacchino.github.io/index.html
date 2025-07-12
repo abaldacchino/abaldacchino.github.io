@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+    <!-- Add Lato font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <!-- Add MathJax -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+        });
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+            type="text/javascript"></script>
+
+    <!-- Viewport for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Adriana Baldacchino</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <style>
+        html, body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Ensure full height */
+            background-color: #eef; /* The color of the side bars */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        figure {
+            border: 1px #cccccc solid;
+            padding: 4px;
+            margin: auto;
+            text-align: center;
+        }
+
+        figcaption {
+            color: black;
+            font-style: italic;
+            padding: 4px;
+            text-align: center;
+        }
+
+        /* Top Navigation Bar */
+        .topnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .topnav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+        }
+
+        .topnav a:hover, .dropdown:hover .dropbtn {
+            background-color: #575757;
+        }
+
+        /* Main content styles */
+        .main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+        }
+
+        .content {
+            margin: 20px 0;
+            padding-top: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 767px) {
+            .topnav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .main img {
+                display: block; /* Make the image a block-level element */
+                margin-left: auto; /* Center the image */
+                margin-right: auto; /* Center the image */
+                float: none; /* Ensure float is removed */
+                max-width: 100%; /* Make sure the image does not overflow its container */
+                height: auto; /* Maintain aspect ratio */
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!-- Top Navigation Bar -->
+<div class="topnav">
+    <a href='index.html' id='index'>About</a>
+    <a href='index.html#projects'>Projects</a>
+<!--    <a href='index.html#outreach'>Outreach</a>-->
+</div>
+
+<!-- Main Content -->
+<div class="main">
+    <div class="content">
+        <h2>
+            Welcome!
+        </h2>
+        <img align="left" src="me.JPEG" width="145" hspace="20"></a>
+        <p align="justify">
+            My name is Adriana Baldacchino, a current MSc student at the University of Oxford,
+            following the Mathematics and Foundations of Computer Science course.
+            Next September, I will be starting a PhD in Computer Science at the University of Birmingham, supervised by Prof. Anupam Das.
+        </p>
+        <p align="justify">
+            Previously, I attained an B.Sc. (Hons) in Mathematics and Computer Science from the University of Malta, specialising in the Graph Theory and Combinatorics stream.
+            My final year project on Goodstein's theorem and its independence to PA, supervised by Dr. Beatriz Zamora-Aviles.
+        </p>
+        <p align="justify">My main research interests are mathematical logic, proof theory, automata theory and complexity theory. For a detailed look at my work in and out of academia, kindly view
+            my <a href="resources/cv.pdf">curriculum-vitae</a>.</p>
+        <div id="projects">
+            <hr>
+            <h3>
+                Projects
+            </h3>
+            <div>
+                <h4>Goodstein Sequences and Unprovability of Peano Arithmetic</h4>
+                <p align="justify">This was my final year dissertation for my BSc. at the University of Malta,
+                and was supervised by Dr. Beatriz Zamora-Aviles. In this work, we go through the details of the
+                    proof that Goodstein's theorem is unprovable in PA. This centers mainly around three papers:
+                Caicedo's explicit formulation of Goodstein's function in terms of fast growing functions,
+                    Ketonen and Solovay's results on these fast growing functions and Buchholz and Wainer's results
+                for provably computable functions. This work involved consolidating all these results in terms of
+                    the same fast growing functions, and giving
+                extended proofs.</p>
+                <p align="justify">
+                    If you are interested, please find the work <a href="resources/thesis.pdf">here</a>.
+                </p>
+            </div>
+<!--            <div>-->
+<!--                <h4>Refinement Preorders for Multi-Verdict Monitors</h4>-->
+<!--                <p align="justify">Some more details here...</p>-->
+<!--            </div>-->
+        </div>
+<!--        <div id="outreach">-->
+<!--            <br>-->
+<!--            <hr>-->
+<!--            <h3>-->
+<!--                Outreach-->
+<!--            </h3>-->
+<!--            <p align="justify">-->
+<!--                Add here Science in the City, B.Sc. talk, MMS, etc.-->
+<!--            </p>-->
+<!--        </div>-->
+        <br>
+        <hr>
+        All content, unless otherwise stated, on this site is © Adriana Baldacchino (2025). <br>
+        <hr>
+        <br>
+    </div>
+</div>
+</body>
+</html>
